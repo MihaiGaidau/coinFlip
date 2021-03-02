@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
@@ -40,6 +38,5 @@ public class LoadingBar : MonoBehaviour
     public void IncrementProgress(float newProgress)
     {
         targetProgress = slider.value + newProgress;
-        Debug.Log(targetProgress);
     }
 }
